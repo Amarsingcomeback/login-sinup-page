@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Console", Courier, monospace;
+}
+.main {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+#video source {
+  width: 100%;
+}
+video {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+.container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: transparent;
+  /* z-index: 1; */
+}
+.flex {
+  display: flex;
+}
+.left {
+  width: 810px;
+  height: 100vh;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  margin-left: 7%;
+}
+.right {
+  width: 550px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 0;
+  background: transparent;
+  backdrop-filter: blur(10px);
+}
+.front-left {
+  height: 60%;
+  width: 100%;
+  margin-bottom: 15%;
+}
+.top-logo {
+  margin-top: 5%;
+  margin-bottom: 35%;
+  display: inline-block;
+  color: white;
+  font-size: 1.5rem;
+}
+.had-text1 {
+  font-size: 40px;
+  color: rgb(233, 226, 226);
+  margin-bottom: 5%;
+}
+.btmText {
+  margin-bottom: 20px;
+}
+.paragraph {
+  color: rgb(188, 197, 253);
+  font-weight: 600;
+}
+.in {
+  cursor: pointer;
+  background: transparent;
+  opacity: 0.3;
+  border: none;
+}
+.in::before {
+  background-color: transparent;
+}
+/* right section styling */
+.front-right {
+  height: 60%;
+  width: 80%;
+  /* margin-left: 10%; */
+}
+.socialicon {
+  margin-top: 25px;
+}
+.socialicon i {
+  color: white;
+  margin-right: 10px;
+}
+form {
+  /* margin-top: 10%; */
+  font-size: 1.2rem;
+  color: rgb(188, 197, 253);
+}
+input {
+  background: transparent;
+  border: none;
+  outline: none;
+  width: 100%;
+}
+input {
+  margin-left: 5px;
+  background: transparent;
+  font-size: 1rem;
+  color: white;
+}
+input::placeholder {
+  font-size: 1rem;
+}
+.in {
+  display: inline;
+  width: 20px;
+  background-color: transparent;
+}
+span {
+  font-size: 0.8rem;
+}
+span a {
+  color: white;
+}
+.ftContainer {
+  margin-top: 10%;
+}
+.ftContainer button {
+  font-size: 1.2rem;
+  padding: 10px 16px;
+  cursor: pointer;
+  margin-right: 2rem;
+  background-color: rgb(216, 0, 0);
+  color: white;
+  outline: none;
+  border: none;
+}
+.ftContainer a {
+  color: rgb(179, 134, 134);
+  font-size: 1rem;
+}
+.had-text {
+  font-size: 40px;
+  color: rgb(233, 226, 226);
+  margin-bottom: 15%;
+}

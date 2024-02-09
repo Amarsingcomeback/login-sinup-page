@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page Disine</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <div class="main">
+      <div id="video">
+        <video autoplay="" loop="" muted playsinline="" id="hero-video">
+          <source
+            src="src/video2.webm"
+            type='video/webm; codecs="vp8, vorbis"'
+          />
+          <source src="src/video1.mp4" type="video/mp4" />
+        </video>
+      </div>
+      <div class="container">
+        <div class="flex">
+          <div class="left">
+            <div class="front-left">
+              <span class="top-logo"><i class="fa-solid fa-helicopter"></i>Logo</span>
+              <div class="btmText">
+                <h1 class="had-text1">
+                  Dont't have an <br />
+                  account?
+                </h1>
+                <p class="paragraph">
+                  Resiter to accsess all the feature of our service. <br />
+                  Manage your business in one place. it's free!
+                </p>
+              </div>
+              <div class="socialicon">
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-google-plus-g"></i>
+              </div>
+            </div>
+          </div>
+          <div class="right">
+            <div class="front-right" id="front-right">
+              <h1 class="had-text">Sign up</h1>
+              <form action="">
+                <label for="email">E-mail</label><br />
+                <input
+                  placeholder="user@gmail.com"
+                  type="email"
+                  id="email"
+                  autocomplete="off"
+                />
+                <hr />
+                <br />
+                <label for="userName">Username</label><br />
+                <input
+                  placeholder="username"
+                  id="userName"
+                  type="text"
+                  autocomplete="off"
+                />
+                <hr />
+                <br />
+                <label for="password">Password</label>
+                <br />
+                <input type="password" placeholder="" id="password" />
+                <hr />
+                <br />
+
+                <input class="in" type="checkbox" name="chack" id="accept" />
+                <span
+                  >I agree to the all statement in
+                  <a href="#">Term of service</a></span
+                >
+
+                <div class="ftContainer">
+                  <button onclick="signUp()">
+                    Sign up <i class="fa-solid fa-chevron-right"></i>
+                  </button>
+                  <a href="login.html">Have an account?</a>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
